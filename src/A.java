@@ -1,16 +1,31 @@
 
-public class A {
 
-	public static void main(String[] args) {
-		
-		int a=10;
-		int b=10;
-		int c=a+b;
-		
-		System.err.println("Sum");
-		
-		
+public class A {
+	A(){
+		System.err.println("A is created");
+	}
+	
+	
+	
+
+	
+}
+
+
+class Student3{
+	int id;
+	String name;
+	void display(){
+		System.err.println("id"+""+name);
+	}
+	public static void main(String args[]){
+		Student3 stu=new Student3();
+		Student3 stud=new Student3();
+		stu.display();
+		stud.display();
 	
 	}
-
 }
+	
+
+
